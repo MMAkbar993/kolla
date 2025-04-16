@@ -62,7 +62,11 @@ export default function ProfilePage() {
 
         <div className="space-y-4">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-gray-200 rounded-md"></div>
+          <img
+                  src="/frame14.png"
+                  alt="Custom design"
+                  className="object-cover w-12 h-12"
+                />
             <div className="flex-1">
               <h4 className="text-sm font-medium">Beginner's Guide to</h4>
               <p className="text-xs text-gray-500">By Web3 Explorers</p>
@@ -71,7 +75,11 @@ export default function ProfilePage() {
           </div>
 
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-gray-200 rounded-md"></div>
+          <img
+                  src="/frame16.png"
+                  alt="Custom design"
+                  className="object-cover w-12 h-12"
+                />
             <div className="flex-1">
               <h4 className="text-sm font-medium">How to Create an NFT</h4>
               <p className="text-xs text-gray-500">By NFT Masters</p>
@@ -80,7 +88,11 @@ export default function ProfilePage() {
           </div>
 
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-gray-200 rounded-md"></div>
+          <img
+                  src="/frame12.png"
+                  alt="Custom design"
+                  className="object-cover w-12 h-12"
+                />
             <div className="flex-1">
               <h4 className="text-sm font-medium">Intro to DAOs</h4>
               <p className="text-xs text-gray-500">By DAO Pioneers</p>
@@ -139,13 +151,18 @@ export default function ProfilePage() {
               {/* Unlock Protocol */}
               <div className="border rounded-lg overflow-hidden">
                 <div className="h-40 bg-yellow-100 relative">
-                  <div className="absolute inset-0 p-4">
+                  {/* <div className="absolute inset-0 p-4">
                     <div className="w-16 h-16 bg-purple-200 rounded-full mb-4"></div>
                     <div className="w-24 h-24 bg-yellow-300 rounded-full absolute bottom-4 right-4"></div>
                     <div className="w-16 h-16 border-2 border-black rounded-full absolute top-12 left-12 flex items-center justify-center">
                       <div className="w-6 h-8 border-2 border-black rounded-t-full"></div>
                     </div>
-                  </div>
+                  </div> */}
+                  <img
+                    src="/frame1.png"
+                    alt="Custom design"
+                    className="object-cover h-full w-full"
+                  />
                 </div>
                 <div className="p-4">
                   <h3 className="font-bold mb-1">Unlock Protocol</h3>
@@ -181,14 +198,12 @@ export default function ProfilePage() {
 
               {/* Open Campus */}
               <div className="border rounded-lg overflow-hidden">
-                <div className="h-40 bg-blue-500 relative p-4">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-24 h-24 bg-blue-300 rounded-full flex items-center justify-center">
-                      <div className="w-16 h-16 border-4 border-white rounded-full flex items-center justify-center">
-                        <div className="w-12 h-6 bg-blue-200 rounded-lg"></div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="h-40 relative p-4">
+                  <img
+                    src="/frame3.png"
+                    alt="Custom design"
+                    className="object-cover h-40 w-full"
+                  />
                 </div>
                 <div className="p-4">
                   <h3 className="font-bold mb-1">Open Campus</h3>
@@ -205,7 +220,11 @@ export default function ProfilePage() {
               {/* Si Her Web3 */}
               <div className="border rounded-lg overflow-hidden">
                 <div className="h-40 bg-pink-200 relative">
-                  <div className="absolute inset-0 bg-gradient-to-br from-pink-300 via-red-200 to-purple-300"></div>
+                <img
+                  src="/frame8.png"
+                  alt="Custom design"
+                  className="object-cover h-full w-full"
+                />
                 </div>
                 <div className="p-4">
                   <h3 className="font-bold mb-1">Si Her Web3</h3>
@@ -217,7 +236,11 @@ export default function ProfilePage() {
               {/* Si Her DeFi */}
               <div className="border rounded-lg overflow-hidden">
                 <div className="h-40 bg-orange-200 relative">
-                  <div className="absolute inset-0 bg-gradient-to-br from-orange-300 via-yellow-200 to-orange-100"></div>
+                <img
+                  src="/frame10.png"
+                  alt="Custom design"
+                  className="object-cover h-full w-full"
+                />
                 </div>
                 <div className="p-4">
                   <h3 className="font-bold mb-1">Si Her DeFi</h3>
@@ -231,7 +254,11 @@ export default function ProfilePage() {
               {/* Web3 Natives */}
               <div className="border rounded-lg overflow-hidden">
                 <div className="h-40 bg-red-200 relative">
-                  <div className="absolute inset-0 bg-gradient-to-br from-red-300 via-orange-200 to-red-100"></div>
+                <img
+                  src="/frame9.png"
+                  alt="Custom design"
+                  className="object-cover h-full w-full"
+                />
                 </div>
                 <div className="p-4">
                   <h3 className="font-bold mb-1">Web3 Natives</h3>
@@ -248,7 +275,11 @@ export default function ProfilePage() {
             <div className="space-y-4">
               <div className="flex items-center justify-between border rounded-lg p-4">
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-purple-200 rounded-lg"></div>
+                <img
+                  src="/frame11.png"
+                  alt="Custom design"
+                  className="object-cover w-12 h-12"
+                />
                   <div>
                     <h3 className="font-bold">Web3 Natives: LATAM</h3>
                     <p className="text-sm text-gray-500">By SI&lt;3&gt;</p>
@@ -261,7 +292,11 @@ export default function ProfilePage() {
 
               <div className="flex items-center justify-between border rounded-lg p-4">
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-blue-200 rounded-lg"></div>
+                <img
+                  src="/frame15.png"
+                  alt="Custom design"
+                  className="object-cover w-12 h-12"
+                />
                   <div>
                     <h3 className="font-bold">Missing Links</h3>
                     <p className="text-sm text-gray-500">By ApeCoin x SI&lt;3&gt;</p>
@@ -274,7 +309,11 @@ export default function ProfilePage() {
 
               <div className="flex items-center justify-between border rounded-lg p-4">
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-pink-200 rounded-lg"></div>
+                <img
+                  src="/frame13.png"
+                  alt="Custom design"
+                  className="object-cover w-12 h-12"
+                />
                   <div>
                     <h3 className="font-bold">Emerging Tech Festivals</h3>
                     <p className="text-sm text-gray-500">By CONFUSION&JOY</p>
