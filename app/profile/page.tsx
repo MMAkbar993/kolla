@@ -135,12 +135,12 @@ export default function ProfilePage() {
               <p className="text-3xl font-bold">12</p>
             </div>
             <div className="border rounded-lg p-6 text-center">
-              <h3 className="text-sm text-gray-500 mb-2">Total earned</h3>
-              <p className="text-3xl font-bold">1111 $SIU</p>
+              <h3 className="text-sm text-gray-500 mb-2">Sessions Attended</h3>
+              <p className="text-3xl font-bold">11</p>
             </div>
             <div className="border rounded-lg p-6 text-center">
-              <h3 className="text-sm text-gray-500 mb-2">Passport Badges</h3>
-              <p className="text-3xl font-bold">13</p>
+              <h3 className="text-sm text-gray-500 mb-2">Certifications Earned</h3>
+              <p className="text-3xl font-bold">5</p>
             </div>
           </div>
 
